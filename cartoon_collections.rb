@@ -17,7 +17,7 @@ end
 def long_planeteer_calls(array)
    new_arr = []
    array.collect do |word|
-     if word.length >= 4
+     if word.length > 4
        new_arr << word
       end
     end
